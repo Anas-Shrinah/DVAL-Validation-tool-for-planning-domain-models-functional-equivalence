@@ -1,0 +1,17 @@
+\newcommand{\ChildsnackResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Child-snack with crafted valid macro & Yes & NCV & 17 & No & 0.82 & 0 & 0.79 \\  \hline
+Child-snack with random valid macro & Yes & NCV & 17 & No & 0.74 & 0 & 0.73 \\  \hline
+Child-snack with random invalid macro & No & NCV & 17 & No & 0.72 & 0 & 0.71 \\  \hline
+Child-snack with swapped atoms & No & NCV & 14 & No & 0.63 & 0 & 0.62 \\  \hline
+Child-snack with deleted operator & No & NCV & 16 & No & 0.63 & 0 & 0.61 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the Child-snack domain and its modified versions. These modifications are detailed in \Cref{tab:ChildsnackModifications}. The description of the reported values in this table is available in the caption of  \Cref{tab:GripperResults}.Some of the non-macro operatros in this domain and its modifed versions are found to be not primitive.} 
+\label{tab:ChildsnackResults} 
+\end{center} 
+\end{table}} 

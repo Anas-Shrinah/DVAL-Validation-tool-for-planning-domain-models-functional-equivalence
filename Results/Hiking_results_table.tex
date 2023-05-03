@@ -1,0 +1,18 @@
+\newcommand{\HikingResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Hiking with crafted valid macro & Yes & FE & 1 & Yes & 3 & 2 & 1 \\  \hline
+Hiking with random valid macro & Yes & FE & 1 & Yes & 3 & 2 & 1 \\  \hline
+Hiking with random invalid macro & No & FE & 1 & Yes & 3 & 2 & 1 \\  \hline
+Hiking with swapped variables & No & FE & 1 & Yes & 3 & 2 & 1 \\  \hline
+Hiking with swapped atoms & No & FE & 1 & Yes & 3 & 2 & 1 \\  \hline
+Hiking with deleted operator & No & FE & 1 & Yes & 3 & 2 & 1 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the Hiking domain and its modified versions. These modifications are detailed in \Cref{tab:HikingModifications}. The description of the reported values in this table is available in the caption of  \Cref{tab:GripperResults}.} 
+\label{tab:HikingResults} 
+\end{center} 
+\end{table}} 

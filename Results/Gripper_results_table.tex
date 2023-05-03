@@ -1,0 +1,17 @@
+\newcommand{\GripperResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Gripper with crafted valid macro & Yes & FE & 1 & Yes & 0.18 & 0.14 & 0.04 \\  \hline
+Gripper with random valid macro & Yes & FE & 1 & Yes & 0.19 & 0.14 & 0.05 \\  \hline
+Gripper with random invalid macro & No & NFE & 6 & Yes & 0.05 & 0 & 0.05 \\  \hline
+Gripper with swapped atoms & No & NFE & 4 & Yes & 0.04 & 0 & 0.04 \\  \hline
+Gripper with deleted operator & No & NFE & 8 & Yes & 0.03 & 0 & 0.03 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the Gripper domain and its modified versions. Expected impact: ``yes'' means the introduced modification on the original Gripper domain is expected to produce a version that is functionally equivalent to the original domain. These modifications are detailed in \Cref{tab:GripperModifications}. The FE column reports the verdict of our tool on the functional equivalence of each validation task: FE: functionally equivalent; NFE: not functionally equivalent; and NCV: no conclusive verdict. The reason column provides the justification of the decision of our tool. The reported numbers can be decoded with the help of \Cref{tab:ReasonsDecoder}. Simple domains: ``Yes'' means both the original domain and its modified version are simple domains, ``No'' means both domains are not simple domains,~i.e. either one or both are complex domains. Total time is the time taken by our tool to complete the validation task; it equals the sum of SMT and Planning times. SMT time is the time taken by the Z3 solver to check the existence of a suitable mapping between the predicates of the original domain and its modified version. Planning time is the time taken by the FF planner to find macro operators in the original domain and its modified version and to check operators are primitive in the case of simple domains.} 
+\label{tab:GripperResults} 
+\end{center} 
+\end{table}} 

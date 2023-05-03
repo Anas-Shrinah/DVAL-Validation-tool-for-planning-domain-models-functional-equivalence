@@ -1,0 +1,92 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between floor-tile-sequential-satisficing.pddl and floor-tile-sequential-satisficing_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.67 
+Total_task_time = 1.71 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between floor-tile-sequential-satisficing.pddl and floor-tile-sequential-satisficing_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+down from D1 is mapped to up_m from D2. 
+paint-down from D1 is mapped to paint-up_m from D2. 
+up from D1 is mapped to down_m from D2. 
+right from D1 is mapped to right_m from D2. 
+left from D1 is mapped to left_m from D2. 
+paint-up from D1 is mapped to paint-down_m from D2. 
+change-color from D1 is mapped to change-color_m from D2. 
+###########################
+###########################
+Predicates mapping
+clear from D1 is mapped to clear_m from D2. 
+right from D1 is mapped to right_m from D2. 
+down from D1 is mapped to up_m from D2. 
+robot-at from D1 is mapped to robot-at_m from D2. 
+painted from D1 is mapped to painted_m from D2. 
+up from D1 is mapped to down_m from D2. 
+left from D1 is mapped to left_m from D2. 
+robot-has from D1 is mapped to robot-has_m from D2. 
+available-color from D1 is mapped to available-color_m from D2. 
+###########################
+SMT_task_time = 314.08 
+Planning_task_time = 1.62 
+Total_task_time = 315.72 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between floor-tile-sequential-satisficing.pddl and floor-tile-sequential-satisficing_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 302.85 
+Planning_task_time = 1.74 
+Total_task_time = 304.61 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between floor-tile-sequential-satisficing.pddl and floor-tile-sequential-satisficing_invalid_macro.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.61 
+Total_task_time = 1.64 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between floor-tile-sequential-satisficing.pddl and floor-tile-sequential-satisficing_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.63 
+Total_task_time = 1.64 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between floor-tile-sequential-satisficing.pddl and floor-tile-sequential-satisficing-M.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+down from D1 is mapped to down from D2. 
+paint-down from D1 is mapped to paint-down from D2. 
+up from D1 is mapped to up from D2. 
+right from D1 is mapped to left from D2. 
+left from D1 is mapped to right from D2. 
+paint-up from D1 is mapped to paint-up from D2. 
+change-color from D1 is mapped to change-color from D2. 
+###########################
+###########################
+Predicates mapping
+clear from D1 is mapped to clear from D2. 
+right from D1 is mapped to left from D2. 
+down from D1 is mapped to down from D2. 
+robot-at from D1 is mapped to robot-at from D2. 
+painted from D1 is mapped to painted from D2. 
+up from D1 is mapped to up from D2. 
+left from D1 is mapped to right from D2. 
+robot-has from D1 is mapped to robot-has from D2. 
+available-color from D1 is mapped to available-color from D2. 
+###########################
+SMT_task_time = 327.95 
+Planning_task_time = 1.82 
+Total_task_time = 329.77 
+Domain1 and Domain2 are functionally equivalent! 

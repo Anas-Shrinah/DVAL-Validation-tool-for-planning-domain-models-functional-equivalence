@@ -1,0 +1,108 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between CaveDiving-seq-sat-ipc2014.pddl and CaveDiving-seq-sat-ipc2014-M.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.14 
+Total_task_time = 0.14 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between CaveDiving-seq-sat-ipc2014.pddl and CaveDiving-seq-sat-ipc2014_invalid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+drop-tank from D1 is mapped to drop-tank_m from D2. 
+pickup-tank from D1 is mapped to pickup-tank_m from D2. 
+swim from D1 is mapped to swim_m from D2. 
+decompress from D1 is mapped to decompress_m from D2. 
+prepare-tank from D1 is mapped to prepare-tank_m from D2. 
+photograph from D1 is mapped to photograph_m from D2. 
+enter-water from D1 is mapped to enter-water_m from D2. 
+###########################
+###########################
+Predicates mapping
+capacity from D1 is mapped to capacity_m from D2. 
+holding from D1 is mapped to holding_m from D2. 
+at-diver from D1 is mapped to at-diver_m from D2. 
+decompressing from D1 is mapped to decompressing_m from D2. 
+at-surface from D1 is mapped to at-surface_m from D2. 
+cave-entrance from D1 is mapped to cave-entrance_m from D2. 
+at-tank from D1 is mapped to at-tank_m from D2. 
+have-photo from D1 is mapped to have-photo_m from D2. 
+full from D1 is mapped to full_m from D2. 
+next-quantity from D1 is mapped to next-quantity_m from D2. 
+next-tank from D1 is mapped to next-tank_m from D2. 
+in-storage from D1 is mapped to in-storage_m from D2. 
+connected from D1 is mapped to connected_m from D2. 
+###########################
+SMT_task_time = 12.43 
+Planning_task_time = 0.14 
+Total_task_time = 12.57 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between CaveDiving-seq-sat-ipc2014.pddl and CaveDiving-seq-sat-ipc2014_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.14 
+Total_task_time = 0.15 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between CaveDiving-seq-sat-ipc2014.pddl and CaveDiving-seq-sat-ipc2014_swapped_position_two_variables_in_atom.pddl 
+************************************************************
+first and second ranges are not the same first and second ranges XX are not the same SMT_task_time = 16.48 
+Planning_task_time = 0.15 
+Total_task_time = 16.64 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between CaveDiving-seq-sat-ipc2014.pddl and CaveDiving-seq-sat-ipc2014_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 1.18 
+Planning_task_time = 0.15 
+Total_task_time = 1.33 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between CaveDiving-seq-sat-ipc2014.pddl and CaveDiving-seq-sat-ipc2014_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+drop-tank from D1 is mapped to drop-tank_m from D2. 
+pickup-tank from D1 is mapped to pickup-tank_m from D2. 
+swim from D1 is mapped to swim_m from D2. 
+decompress from D1 is mapped to decompress_m from D2. 
+prepare-tank from D1 is mapped to prepare-tank_m from D2. 
+photograph from D1 is mapped to photograph_m from D2. 
+enter-water from D1 is mapped to enter-water_m from D2. 
+###########################
+###########################
+Predicates mapping
+capacity from D1 is mapped to capacity_m from D2. 
+holding from D1 is mapped to holding_m from D2. 
+at-diver from D1 is mapped to at-diver_m from D2. 
+decompressing from D1 is mapped to decompressing_m from D2. 
+at-surface from D1 is mapped to at-surface_m from D2. 
+cave-entrance from D1 is mapped to cave-entrance_m from D2. 
+at-tank from D1 is mapped to at-tank_m from D2. 
+have-photo from D1 is mapped to have-photo_m from D2. 
+full from D1 is mapped to full_m from D2. 
+next-quantity from D1 is mapped to next-quantity_m from D2. 
+next-tank from D1 is mapped to next-tank_m from D2. 
+in-storage from D1 is mapped to in-storage_m from D2. 
+connected from D1 is mapped to connected_m from D2. 
+###########################
+SMT_task_time = 16.83 
+Planning_task_time = 0.14 
+Total_task_time = 16.97 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between CaveDiving-seq-sat-ipc2014.pddl and CaveDiving-seq-sat-ipc2014_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.14 
+Total_task_time = 0.14 
+Domain1 and Domain2 are functionally equivalent! 

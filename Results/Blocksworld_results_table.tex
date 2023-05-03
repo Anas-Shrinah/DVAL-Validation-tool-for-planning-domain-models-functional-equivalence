@@ -1,0 +1,18 @@
+\newcommand{\BlocksworldResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Blocksworld with crafted valid macro & Yes & FE & 1 & Yes & 2.38 & 1.75 & 0.61 \\  \hline
+Blocksworld with random valid macro & Yes & FE & 1 & Yes & 2.15 & 1.66 & 0.48 \\  \hline
+Blocksworld with random invalid macro & No & NFE & 6 & Yes & 0.98 & 0 & 0.95 \\  \hline
+Blocksworld with swapped variables & No & NFE & 4 & Yes & 0.92 & 0 & 0.91 \\  \hline
+Blocksworld with swapped atoms & No & NFE & 4 & Yes & 0.9 & 0 & 0.89 \\  \hline
+Blocksworld with deleted operator & No & NFE & 8 & Yes & 0.81 & 0 & 0.8 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the Blocksworld domain and its modified versions. These modifications are detailed in \Cref{tab:BlocksworldModifications}. The description of the reported values in this table is available in the caption of  \Cref{tab:GripperResults}.All the non-macro operatros in this domain and its modifed versions are found to be primitive.} 
+\label{tab:BlocksworldResults} 
+\end{center} 
+\end{table}} 

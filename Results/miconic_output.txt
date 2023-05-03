@@ -1,0 +1,80 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between elevator-strips-simple-typed-domain.pddl and elevator-strips-simple-typed-domain_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.06 
+Total_task_time = 0.06 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between elevator-strips-simple-typed-domain.pddl and elevator-strips-simple-typed-domain_invalid_macro.pddl 
+************************************************************
+first and second ranges are not the same first and second ranges XX are not the same SMT_task_time = 0.52 
+Planning_task_time = 0.08 
+Total_task_time = 0.6 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between elevator-strips-simple-typed-domain.pddl and elevator-strips-simple-typed-domain_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 0.15 
+Planning_task_time = 0.07 
+Total_task_time = 0.22 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between elevator-strips-simple-typed-domain.pddl and elevator-strips-simple-typed-domain_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 0.15 
+Planning_task_time = 0.07 
+Total_task_time = 0.22 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between elevator-strips-simple-typed-domain.pddl and elevator-strips-simple-typed-domain_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+depart from D1 is mapped to depart_m from D2. 
+board from D1 is mapped to board_m from D2. 
+up from D1 is mapped to up_m from D2. 
+down from D1 is mapped to down_m from D2. 
+###########################
+###########################
+Predicates mapping
+destin from D1 is mapped to destin_m from D2. 
+boarded from D1 is mapped to boarded_m from D2. 
+origin from D1 is mapped to origin_m from D2. 
+served from D1 is mapped to served_m from D2. 
+lift-at from D1 is mapped to lift-at_m from D2. 
+above from D1 is mapped to above_m from D2. 
+###########################
+SMT_task_time = 0.27 
+Planning_task_time = 0.08 
+Total_task_time = 0.35 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between elevator-strips-simple-typed-domain.pddl and elevator-strips-simple-typed-domain-M.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+depart from D1 is mapped to depart_m from D2. 
+board from D1 is mapped to board_m from D2. 
+up from D1 is mapped to up_m from D2. 
+down from D1 is mapped to down_m from D2. 
+###########################
+###########################
+Predicates mapping
+destin from D1 is mapped to destin_m from D2. 
+boarded from D1 is mapped to boarded_m from D2. 
+origin from D1 is mapped to origin_m from D2. 
+served from D1 is mapped to served_m from D2. 
+lift-at from D1 is mapped to lift-at_m from D2. 
+above from D1 is mapped to above_m from D2. 
+###########################
+SMT_task_time = 0.33 
+Planning_task_time = 0.08 
+Total_task_time = 0.41 
+Domain1 and Domain2 are functionally equivalent! 

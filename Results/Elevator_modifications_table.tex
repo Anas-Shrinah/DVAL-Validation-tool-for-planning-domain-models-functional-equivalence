@@ -1,0 +1,24 @@
+\newcommand{\ElevatorModifications}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|M{0.2\linewidth}|M{0.1\linewidth}|M{0.70\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{Modification description}     \\ \hline  
+Elevator with crafted valid macro & Yes & The valid macro operator ``board-up-depart'' is handcrafted and added to this modified version.
+ \\  \hline
+Elevator with random valid macro & Yes & The valid macro operator ``board-depart-up'' is randomly created from the operators of the original domain and added to this modified version.
+ \\  \hline
+Elevator with random invalid macro & No & The invalid macro operator ``board-depart-up'' is added to this modified version. This invalid macro is produced from the valid macro that is explained in the previous entry of this table by swapping the add effect (served ?x3) with the precondition (origin ?x3 ?x1) in the original valid macro.
+ \\  \hline
+Elevator with swapped variables & No & The variable ?f1 in the parameters of the add effect (above ?f1 ?f2) in the operator ``down'' in the original domain is swapped with the variable ?f2 from the parameters of the same add effect of the same operator in this modified version.
+ \\  \hline
+Elevator with swapped atoms & No & The atom (lift-at ?f2) in the add effects of the operator ``down'' in the original domain is changed to a precondition in this modified version, and the atom (above ?f2 ?f1) from the preconditions of the same operator in the original domain is changed to an add effect in this modified version.
+ \\  \hline
+Elevator with deleted operator & No & The operator ``up'' is removed from this modified domain, this operator exists in the original domain.
+ \\  \hline
+\end{tabular}}
+\caption{The description of the modifications applied to the Elevator domain to produce its modified versions. Expected impact: ``yes'' means the introduced modification to the original Elevator domain is expected to produce a version that is functionally equivalent to the original domain. } 
+\label{tab:ElevatorModifications} 
+\end{center} 
+\end{table}} 

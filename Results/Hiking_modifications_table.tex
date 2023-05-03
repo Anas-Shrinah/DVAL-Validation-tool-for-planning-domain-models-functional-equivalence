@@ -1,0 +1,24 @@
+\newcommand{\HikingModifications}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|M{0.2\linewidth}|M{0.1\linewidth}|M{0.70\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{Modification description}     \\ \hline  
+Hiking with crafted valid macro & Yes & The valid macro operator ``drive-tent-put-up'' is handcrafted and added to this modified version.
+ \\  \hline
+Hiking with random valid macro & Yes & The valid macro operator ``put-down-put-up-drive-passenger'' is randomly created from the operators of the original domain and added to this modified version.
+ \\  \hline
+Hiking with random invalid macro & No & The invalid macro operator ``put-down-put-up-drive-passenger'' is added to this modified version. This invalid macro is produced from the valid macro that is explained in the previous entry of this table by swapping the add effect (at-person ?x1 ?x4) with the precondition (at-tent ?x5 ?x3) in the original valid macro.
+ \\  \hline
+Hiking with swapped variables & No & The variable ?x3 in the parameters of the precondition (partners-M ?x6 ?x3 ?x5 ) in the operator ``walk-together'' in the original domain is swapped with the variable ?x5 from the parameters of the same precondition of the same operator in this modified version.
+ \\  \hline
+Hiking with swapped atoms & No & The atom (up ?x3) in the add effects of the operator ``put-up'' in the original domain is changed to a precondition in this modified version, and the atom (at-tent ?x3 ?x2) from the preconditions of the same operator in the original domain is changed to an add effect in this modified version.
+ \\  \hline
+Hiking with deleted operator & No & The operator ``drive-tent-passenger'' is removed from this modified domain, this operator exists in the original domain.
+ \\  \hline
+\end{tabular}}
+\caption{The description of the modifications applied to the Hiking domain to produce its modified versions. Expected impact: ``yes'' means the introduced modification to the original Hiking domain is expected to produce a version that is functionally equivalent to the original domain. } 
+\label{tab:HikingModifications} 
+\end{center} 
+\end{table}} 

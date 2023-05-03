@@ -1,0 +1,96 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between pipesworld-no-tankage-nontemporal-strips-domain.pddl and pipesworld-no-tankage-nontemporal-strips-domain_invalid_macro.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.28 
+Total_task_time = 1.34 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between pipesworld-no-tankage-nontemporal-strips-domain.pddl and pipesworld-no-tankage-nontemporal-strips-domain_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+push-unitarypipe from D1 is mapped to push-unitarypipe_m from D2. 
+push-start from D1 is mapped to push-start_m from D2. 
+push-end from D1 is mapped to push-end_m from D2. 
+pop-unitarypipe from D1 is mapped to pop-unitarypipe_m from D2. 
+pop-start from D1 is mapped to pop-start_m from D2. 
+pop-end from D1 is mapped to pop-end_m from D2. 
+###########################
+###########################
+Predicates mapping
+last from D1 is mapped to last_m from D2. 
+connect from D1 is mapped to connect_m from D2. 
+first from D1 is mapped to first_m from D2. 
+pop-updating from D1 is mapped to pop-updating_m from D2. 
+not-unitary from D1 is mapped to not-unitary_m from D2. 
+unitary from D1 is mapped to unitary_m from D2. 
+push-updating from D1 is mapped to push-updating_m from D2. 
+normal from D1 is mapped to normal_m from D2. 
+on from D1 is mapped to on_m from D2. 
+follow from D1 is mapped to follow_m from D2. 
+is-product from D1 is mapped to is-product_m from D2. 
+may-interface from D1 is mapped to may-interface_m from D2. 
+###########################
+SMT_task_time = 2767.39 
+Planning_task_time = 1.38 
+Total_task_time = 2768.77 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between pipesworld-no-tankage-nontemporal-strips-domain.pddl and pipesworld-no-tankage-nontemporal-strips-domain_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.48 
+Total_task_time = 1.51 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between pipesworld-no-tankage-nontemporal-strips-domain.pddl and pipesworld-no-tankage-nontemporal-strips-domain-M.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+push-unitarypipe from D1 is mapped to push-unitarypipe_m from D2. 
+push-start from D1 is mapped to push-start_m from D2. 
+push-end from D1 is mapped to push-end_m from D2. 
+pop-unitarypipe from D1 is mapped to pop-unitarypipe_m from D2. 
+pop-start from D1 is mapped to pop-start_m from D2. 
+pop-end from D1 is mapped to pop-end_m from D2. 
+###########################
+###########################
+Predicates mapping
+last from D1 is mapped to last_m from D2. 
+connect from D1 is mapped to connect_m from D2. 
+first from D1 is mapped to first_m from D2. 
+pop-updating from D1 is mapped to pop-updating_m from D2. 
+not-unitary from D1 is mapped to not-unitary_m from D2. 
+unitary from D1 is mapped to unitary_m from D2. 
+push-updating from D1 is mapped to push-updating_m from D2. 
+normal from D1 is mapped to normal_m from D2. 
+on from D1 is mapped to on_m from D2. 
+follow from D1 is mapped to follow_m from D2. 
+is-product from D1 is mapped to is-product_m from D2. 
+may-interface from D1 is mapped to may-interface_m from D2. 
+###########################
+SMT_task_time = 3031.13 
+Planning_task_time = 1.55 
+Total_task_time = 3032.7 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between pipesworld-no-tankage-nontemporal-strips-domain.pddl and pipesworld-no-tankage-nontemporal-strips-domain_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.49 
+Total_task_time = 1.51 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between pipesworld-no-tankage-nontemporal-strips-domain.pddl and pipesworld-no-tankage-nontemporal-strips-domain_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.33 
+Total_task_time = 1.36 
+Domain1 and Domain2 are functionally equivalent! 

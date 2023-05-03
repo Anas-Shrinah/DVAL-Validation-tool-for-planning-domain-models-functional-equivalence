@@ -1,0 +1,18 @@
+\newcommand{\Cave-divingResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Cave-diving with crafted valid macro & Yes & NFE & 3 & Yes & 3.97 & 0 & 3.96 \\  \hline
+Cave-diving with random valid macro & Yes & FE & 1 & Yes & 293.17 & 289.25 & 3.91 \\  \hline
+Cave-diving with random invalid macro & No & NFE & 4 & Yes & 4.52 & 0 & 4.48 \\  \hline
+Cave-diving with swapped variables & No & NFE & 4 & Yes & 3.57 & 0 & 3.56 \\  \hline
+Cave-diving with swapped atoms & No & NFE & 4 & Yes & 3.26 & 0 & 3.26 \\  \hline
+Cave-diving with deleted operator & No & NFE & 5 & Yes & 3.23 & 0 & 3.22 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the Cave-diving domain and its modified versions. These modifications are detailed in \Cref{tab:cave-diving_modifications}. The description of the reported values in this table is available in the caption of  \Cref{Tab:gripper_results}.} 
+\label{tab:cave-diving_results} 
+\end{center} 
+\end{table}} 

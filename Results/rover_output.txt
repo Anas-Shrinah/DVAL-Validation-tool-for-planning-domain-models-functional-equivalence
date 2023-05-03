@@ -1,0 +1,168 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between rover-domain.pddl and rover-domain_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 3.06 
+Total_task_time = 3.07 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between rover-domain.pddl and rover-domain_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 67.74 
+Planning_task_time = 2.88 
+Total_task_time = 70.64 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between rover-domain.pddl and rover-domain-M.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+navigate from D1 is mapped to navigate_m from D2. 
+communicate_image_data from D1 is mapped to communicate_image_data_m from D2. 
+sample_rock from D1 is mapped to sample_soil_m from D2. 
+communicate_soil_data from D1 is mapped to communicate_rock_data_m from D2. 
+sample_soil from D1 is mapped to sample_rock_m from D2. 
+communicate_rock_data from D1 is mapped to communicate_soil_data_m from D2. 
+drop from D1 is mapped to drop_m from D2. 
+calibrate from D1 is mapped to calibrate_m from D2. 
+take_image from D1 is mapped to take_image_m from D2. 
+###########################
+###########################
+Predicates mapping
+at from D1 is mapped to at_m from D2. 
+visible from D1 is mapped to visible_m from D2. 
+have_rock_analysis from D1 is mapped to have_soil_analysis_m from D2. 
+store_of from D1 is mapped to store_of_m from D2. 
+equipped_for_rock_analysis from D1 is mapped to equipped_for_soil_analysis_m from D2. 
+can_traverse from D1 is mapped to can_traverse_m from D2. 
+equipped_for_soil_analysis from D1 is mapped to equipped_for_rock_analysis_m from D2. 
+available from D1 is mapped to available_m from D2. 
+have_soil_analysis from D1 is mapped to have_rock_analysis_m from D2. 
+calibrated from D1 is mapped to calibrated_m from D2. 
+equipped_for_imaging from D1 is mapped to equipped_for_imaging_m from D2. 
+have_image from D1 is mapped to have_image_m from D2. 
+on_board from D1 is mapped to on_board_m from D2. 
+visible_from from D1 is mapped to visible_from_m from D2. 
+at_soil_sample from D1 is mapped to at_rock_sample_m from D2. 
+communicated_rock_data from D1 is mapped to communicated_soil_data_m from D2. 
+at_rock_sample from D1 is mapped to at_soil_sample_m from D2. 
+communicated_soil_data from D1 is mapped to communicated_rock_data_m from D2. 
+at_lander from D1 is mapped to at_lander_m from D2. 
+full from D1 is mapped to full_m from D2. 
+empty from D1 is mapped to empty_m from D2. 
+calibration_target from D1 is mapped to calibration_target_m from D2. 
+supports from D1 is mapped to supports_m from D2. 
+channel_free from D1 is mapped to channel_free_m from D2. 
+communicated_image_data from D1 is mapped to communicated_image_data_m from D2. 
+###########################
+SMT_task_time = 982.83 
+Planning_task_time = 3.43 
+Total_task_time = 986.28 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between rover-domain.pddl and rover-domain_invalid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+navigate from D1 is mapped to navigate_m from D2. 
+communicate_image_data from D1 is mapped to communicate_image_data_m from D2. 
+sample_rock from D1 is mapped to sample_rock_m from D2. 
+communicate_soil_data from D1 is mapped to communicate_soil_data_m from D2. 
+sample_soil from D1 is mapped to sample_soil_m from D2. 
+communicate_rock_data from D1 is mapped to communicate_rock_data_m from D2. 
+drop from D1 is mapped to drop_m from D2. 
+calibrate from D1 is mapped to calibrate_m from D2. 
+take_image from D1 is mapped to take_image_m from D2. 
+###########################
+###########################
+Predicates mapping
+at from D1 is mapped to at_m from D2. 
+visible from D1 is mapped to visible_m from D2. 
+have_rock_analysis from D1 is mapped to have_rock_analysis_m from D2. 
+store_of from D1 is mapped to store_of_m from D2. 
+equipped_for_rock_analysis from D1 is mapped to equipped_for_rock_analysis_m from D2. 
+can_traverse from D1 is mapped to can_traverse_m from D2. 
+equipped_for_soil_analysis from D1 is mapped to equipped_for_soil_analysis_m from D2. 
+available from D1 is mapped to available_m from D2. 
+have_soil_analysis from D1 is mapped to have_soil_analysis_m from D2. 
+calibrated from D1 is mapped to calibrated_m from D2. 
+equipped_for_imaging from D1 is mapped to equipped_for_imaging_m from D2. 
+have_image from D1 is mapped to have_image_m from D2. 
+on_board from D1 is mapped to on_board_m from D2. 
+visible_from from D1 is mapped to visible_from_m from D2. 
+at_soil_sample from D1 is mapped to at_soil_sample_m from D2. 
+communicated_rock_data from D1 is mapped to communicated_rock_data_m from D2. 
+at_rock_sample from D1 is mapped to at_rock_sample_m from D2. 
+communicated_soil_data from D1 is mapped to communicated_soil_data_m from D2. 
+at_lander from D1 is mapped to at_lander_m from D2. 
+full from D1 is mapped to full_m from D2. 
+empty from D1 is mapped to empty_m from D2. 
+calibration_target from D1 is mapped to calibration_target_m from D2. 
+supports from D1 is mapped to supports_m from D2. 
+channel_free from D1 is mapped to channel_free_m from D2. 
+communicated_image_data from D1 is mapped to communicated_image_data_m from D2. 
+###########################
+SMT_task_time = 1130.39 
+Planning_task_time = 4.05 
+Total_task_time = 1134.45 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between rover-domain.pddl and rover-domain_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+navigate from D1 is mapped to navigate_m from D2. 
+communicate_image_data from D1 is mapped to communicate_image_data_m from D2. 
+sample_rock from D1 is mapped to sample_soil_m from D2. 
+communicate_soil_data from D1 is mapped to communicate_rock_data_m from D2. 
+sample_soil from D1 is mapped to sample_rock_m from D2. 
+communicate_rock_data from D1 is mapped to communicate_soil_data_m from D2. 
+drop from D1 is mapped to drop_m from D2. 
+calibrate from D1 is mapped to calibrate_m from D2. 
+take_image from D1 is mapped to take_image_m from D2. 
+###########################
+###########################
+Predicates mapping
+at from D1 is mapped to at_m from D2. 
+visible from D1 is mapped to visible_m from D2. 
+have_rock_analysis from D1 is mapped to have_soil_analysis_m from D2. 
+store_of from D1 is mapped to store_of_m from D2. 
+equipped_for_rock_analysis from D1 is mapped to equipped_for_soil_analysis_m from D2. 
+can_traverse from D1 is mapped to can_traverse_m from D2. 
+equipped_for_soil_analysis from D1 is mapped to equipped_for_rock_analysis_m from D2. 
+available from D1 is mapped to available_m from D2. 
+have_soil_analysis from D1 is mapped to have_rock_analysis_m from D2. 
+calibrated from D1 is mapped to calibrated_m from D2. 
+equipped_for_imaging from D1 is mapped to equipped_for_imaging_m from D2. 
+have_image from D1 is mapped to have_image_m from D2. 
+on_board from D1 is mapped to on_board_m from D2. 
+visible_from from D1 is mapped to visible_from_m from D2. 
+at_soil_sample from D1 is mapped to at_rock_sample_m from D2. 
+communicated_rock_data from D1 is mapped to communicated_soil_data_m from D2. 
+at_rock_sample from D1 is mapped to at_soil_sample_m from D2. 
+communicated_soil_data from D1 is mapped to communicated_rock_data_m from D2. 
+at_lander from D1 is mapped to at_lander_m from D2. 
+full from D1 is mapped to full_m from D2. 
+empty from D1 is mapped to empty_m from D2. 
+calibration_target from D1 is mapped to calibration_target_m from D2. 
+supports from D1 is mapped to supports_m from D2. 
+channel_free from D1 is mapped to channel_free_m from D2. 
+communicated_image_data from D1 is mapped to communicated_image_data_m from D2. 
+###########################
+SMT_task_time = 1283.83 
+Planning_task_time = 3.93 
+Total_task_time = 1287.8 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between rover-domain.pddl and rover-domain_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 76.12 
+Planning_task_time = 3.63 
+Total_task_time = 79.79 
+Domain1 and Domain2 are functionally equivalent! 

@@ -1,0 +1,102 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between freecell-strips-typed-domain.pddl and freecell-strips-typed-domain_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+sendtohome-b from D1 is mapped to sendtohome-b_m from D2. 
+colfromfreecell from D1 is mapped to colfromfreecell_m from D2. 
+move from D1 is mapped to move_m from D2. 
+move-b from D1 is mapped to move-b_m from D2. 
+sendtofree from D1 is mapped to sendtofree_m from D2. 
+homefromfreecell from D1 is mapped to homefromfreecell_m from D2. 
+sendtohome from D1 is mapped to sendtohome_m from D2. 
+newcolfromfreecell from D1 is mapped to newcolfromfreecell_m from D2. 
+sendtonewcol from D1 is mapped to sendtonewcol_m from D2. 
+sendtofree-b from D1 is mapped to sendtofree-b_m from D2. 
+###########################
+###########################
+Predicates mapping
+bottomcol from D1 is mapped to bottomcol_m from D2. 
+value from D1 is mapped to value_m from D2. 
+incell from D1 is mapped to incell_m from D2. 
+on from D1 is mapped to on_m from D2. 
+clear from D1 is mapped to clear_m from D2. 
+suit from D1 is mapped to suit_m from D2. 
+home from D1 is mapped to home_m from D2. 
+canstack from D1 is mapped to canstack_m from D2. 
+cellspace from D1 is mapped to cellspace_m from D2. 
+successor from D1 is mapped to successor_m from D2. 
+colspace from D1 is mapped to colspace_m from D2. 
+###########################
+SMT_task_time = 573.89 
+Planning_task_time = 0.43 
+Total_task_time = 574.32 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between freecell-strips-typed-domain.pddl and freecell-strips-typed-domain-M.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+sendtohome-b from D1 is mapped to sendtohome-b from D2. 
+colfromfreecell from D1 is mapped to colfromfreecell from D2. 
+move from D1 is mapped to move from D2. 
+move-b from D1 is mapped to move-b from D2. 
+sendtofree from D1 is mapped to sendtofree from D2. 
+homefromfreecell from D1 is mapped to homefromfreecell from D2. 
+sendtohome from D1 is mapped to sendtohome from D2. 
+newcolfromfreecell from D1 is mapped to newcolfromfreecell from D2. 
+sendtonewcol from D1 is mapped to sendtonewcol from D2. 
+sendtofree-b from D1 is mapped to sendtofree-b from D2. 
+###########################
+###########################
+Predicates mapping
+bottomcol from D1 is mapped to bottomcol from D2. 
+value from D1 is mapped to value from D2. 
+incell from D1 is mapped to incell from D2. 
+on from D1 is mapped to on from D2. 
+clear from D1 is mapped to clear from D2. 
+suit from D1 is mapped to suit from D2. 
+home from D1 is mapped to home from D2. 
+canstack from D1 is mapped to canstack from D2. 
+cellspace from D1 is mapped to cellspace from D2. 
+successor from D1 is mapped to successor from D2. 
+colspace from D1 is mapped to colspace from D2. 
+###########################
+SMT_task_time = 607.32 
+Planning_task_time = 0.5 
+Total_task_time = 607.82 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between freecell-strips-typed-domain.pddl and freecell-strips-typed-domain_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 5.23 
+Planning_task_time = 0.64 
+Total_task_time = 5.87 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between freecell-strips-typed-domain.pddl and freecell-strips-typed-domain_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 4.49 
+Planning_task_time = 0.65 
+Total_task_time = 5.15 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between freecell-strips-typed-domain.pddl and freecell-strips-typed-domain_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.45 
+Total_task_time = 0.45 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between freecell-strips-typed-domain.pddl and freecell-strips-typed-domain_invalid_macro.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.52 
+Total_task_time = 0.52 
+Domain1 and Domain2 are functionally equivalent! 

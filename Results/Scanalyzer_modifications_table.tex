@@ -1,0 +1,24 @@
+\newcommand{\ScanalyzerModifications}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|M{0.2\linewidth}|M{0.1\linewidth}|M{0.70\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{Modification description}     \\ \hline  
+Scanalyzer with crafted valid macro & Yes & The valid macro operator ``analyze-2-rotate-2'' is handcrafted and added to this modified version.
+ \\  \hline
+Scanalyzer with random valid macro & Yes & The valid macro operator ``analyze-2-analyze-4-rotate-2'' is randomly created from the operators of the original domain and added to this modified version.
+ \\  \hline
+Scanalyzer with random invalid macro & No & The invalid macro operator ``analyze-2-analyze-4-rotate-2'' is added to this modified version. This invalid macro is produced from the valid macro that is explained in the previous entry of this table by swapping the add effect (analyzed ?x5) with the precondition (on ?x6 ?x2) in the original valid macro.
+ \\  \hline
+Scanalyzer with swapped variables & No & The variable ?s1 in the parameters of the precondition (cycle-2 ?s1 ?s2 ) in the operator ``rotate-2'' in the original domain is swapped with the variable ?s2 from the parameters of the same precondition of the same operator in this modified version.
+ \\  \hline
+Scanalyzer with swapped atoms & No & The atom (on ?c4 ?s3) in the add effects of the operator ``analyze-4'' in the original domain is changed to a precondition in this modified version, and the atom (on ?c2 ?s2) from the preconditions of the same operator in the original domain is changed to an add effect in this modified version.
+ \\  \hline
+Scanalyzer with deleted operator & No & The operator ``analyze-2'' is removed from this modified domain, this operator exists in the original domain.
+ \\  \hline
+\end{tabular}}
+\caption{The description of the modifications applied to the Scanalyzer domain to produce its modified versions. Expected impact: ``yes'' means the introduced modification to the original Scanalyzer domain is expected to produce a version that is functionally equivalent to the original domain. } 
+\label{tab:ScanalyzerModifications} 
+\end{center} 
+\end{table}} 

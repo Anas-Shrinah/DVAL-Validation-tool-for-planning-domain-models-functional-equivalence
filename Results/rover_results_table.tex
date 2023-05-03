@@ -1,0 +1,18 @@
+\newcommand{\RoverResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Rover with crafted valid macro & Yes & FE & 1 & Yes & 986.28 & 982.83 & 3.43 \\  \hline
+Rover with random valid macro & Yes & FE & 1 & Yes & 1287.8 & 1283.83 & 3.93 \\  \hline
+Rover with random invalid macro & No & FE & 1 & Yes & 1134.45 & 1130.39 & 4.05 \\  \hline
+Rover with swapped variables & No & NFE & 2 & Yes & 79.79 & 76.12 & 3.63 \\  \hline
+Rover with swapped atoms & No & NFE & 2 & Yes & 70.64 & 67.74 & 2.88 \\  \hline
+Rover with deleted operator & No & NFE & 5 & Yes & 3.07 & 0 & 3.06 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the Rover domain and its modified versions. These modifications are detailed in \Cref{tab:rover_modifications}. The description of the reported values in this table is available in the caption of  \Cref{Tab:gripper_results}.} 
+\label{tab:rover_results} 
+\end{center} 
+\end{table}} 

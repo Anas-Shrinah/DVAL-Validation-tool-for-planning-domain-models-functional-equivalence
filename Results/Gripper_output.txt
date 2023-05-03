@@ -1,0 +1,4 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between gripper-round-1-adl-domain.pddl and gripper-round-1-adl-domain-M.pddl 
+************************************************************

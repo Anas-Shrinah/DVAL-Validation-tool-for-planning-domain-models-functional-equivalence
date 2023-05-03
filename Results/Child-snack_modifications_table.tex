@@ -1,0 +1,22 @@
+\newcommand{\ChildsnackModifications}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|M{0.2\linewidth}|M{0.1\linewidth}|M{0.70\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{Modification description}     \\ \hline  
+Child-snack with crafted valid macro & Yes & The valid macro operator ``make-sandwich-put-on-tray'' is handcrafted and added to this modified version.
+ \\  \hline
+Child-snack with random valid macro & Yes & The valid macro operator ``make-sandwich-no-gluten-put-on-tray-serve-sandwich-no-gluten'' is randomly created from the operators of the original domain and added to this modified version.
+ \\  \hline
+Child-snack with random invalid macro & No & The invalid macro operator ``make-sandwich-no-gluten-put-on-tray-serve-sandwich-no-gluten'' is added to this modified version. This invalid macro is produced from the valid macro that is explained in the previous entry of this table by swapping the add effect (no-gluten-sandwich ?x3) with the precondition (allergic-gluten-M ?x7) in the original valid macro.
+ \\  \hline
+Child-snack with swapped atoms & No & The atom (at ?t ?p2) in the add effects of the operator ``move-tray'' in the original domain is changed to a precondition in this modified version, and the atom (at ?t ?p1) from the preconditions of the same operator in the original domain is changed to an add effect in this modified version.
+ \\  \hline
+Child-snack with deleted operator & No & The operator ``put-on-tray'' is removed from this modified domain, this operator exists in the original domain.
+ \\  \hline
+\end{tabular}}
+\caption{The description of the modifications applied to the Child-snack domain to produce its modified versions. Expected impact: ``yes'' means the introduced modification to the original Child-snack domain is expected to produce a version that is functionally equivalent to the original domain. } 
+\label{tab:ChildsnackModifications} 
+\end{center} 
+\end{table}} 

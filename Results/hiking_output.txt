@@ -1,0 +1,86 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between hiking-sequential-satisficing.pddl and hiking-sequential-satisficing_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.17 
+Total_task_time = 0.17 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between hiking-sequential-satisficing.pddl and hiking-sequential-satisficing-M.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.27 
+Total_task_time = 0.27 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between hiking-sequential-satisficing.pddl and hiking-sequential-satisficing_invalid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+put_up from D1 is mapped to put_up_m from D2. 
+drive_passenger from D1 is mapped to drive_passenger_m from D2. 
+drive_tent from D1 is mapped to drive_tent_m from D2. 
+walk_together from D1 is mapped to walk_together_m from D2. 
+put_down from D1 is mapped to put_down_m from D2. 
+###########################
+###########################
+Predicates mapping
+at_person from D1 is mapped to at_person_m from D2. 
+at_car from D1 is mapped to at_car_m from D2. 
+at_tent from D1 is mapped to at_tent_m from D2. 
+walked from D1 is mapped to walked_m from D2. 
+next from D1 is mapped to next_m from D2. 
+partners from D1 is mapped to partners_m from D2. 
+down from D1 is mapped to down_m from D2. 
+up from D1 is mapped to up_m from D2. 
+###########################
+SMT_task_time = 29.65 
+Planning_task_time = 0.27 
+Total_task_time = 29.92 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between hiking-sequential-satisficing.pddl and hiking-sequential-satisficing_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.17 
+Total_task_time = 0.17 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between hiking-sequential-satisficing.pddl and hiking-sequential-satisficing_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+put_up from D1 is mapped to put_up_m from D2. 
+drive_passenger from D1 is mapped to drive_passenger_m from D2. 
+drive_tent from D1 is mapped to drive_tent_m from D2. 
+walk_together from D1 is mapped to walk_together_m from D2. 
+put_down from D1 is mapped to put_down_m from D2. 
+###########################
+###########################
+Predicates mapping
+at_person from D1 is mapped to at_person_m from D2. 
+at_car from D1 is mapped to at_car_m from D2. 
+at_tent from D1 is mapped to at_tent_m from D2. 
+walked from D1 is mapped to walked_m from D2. 
+next from D1 is mapped to next_m from D2. 
+partners from D1 is mapped to partners_m from D2. 
+down from D1 is mapped to down_m from D2. 
+up from D1 is mapped to up_m from D2. 
+###########################
+SMT_task_time = 27.71 
+Planning_task_time = 0.3 
+Total_task_time = 28.01 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between hiking-sequential-satisficing.pddl and hiking-sequential-satisficing_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.28 
+Total_task_time = 0.28 
+Domain1 and Domain2 are functionally equivalent! 

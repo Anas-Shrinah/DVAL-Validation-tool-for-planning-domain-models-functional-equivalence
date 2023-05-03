@@ -1,0 +1,100 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between logistics-strips-typed.pddl and logistics-strips-typed_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+load-truck-location from D1 is mapped to load-truck-location_m from D2. 
+drive-truck-airport-location from D1 is mapped to drive-truck-airport-location_m from D2. 
+drive-truck-airport-airport from D1 is mapped to drive-truck-airport-airport_m from D2. 
+load-truck-airport from D1 is mapped to load-truck-airport_m from D2. 
+drive-truck-location-location from D1 is mapped to drive-truck-location-location_m from D2. 
+unload-truck-location from D1 is mapped to unload-truck-location_m from D2. 
+unload-truck-airport from D1 is mapped to unload-truck-airport_m from D2. 
+drive-truck-location-airport from D1 is mapped to drive-truck-location-airport_m from D2. 
+load-airplane from D1 is mapped to load-airplane_m from D2. 
+unload-airplane from D1 is mapped to unload-airplane_m from D2. 
+fly-airplane from D1 is mapped to fly-airplane_m from D2. 
+###########################
+###########################
+Predicates mapping
+in-truck from D1 is mapped to in-truck_m from D2. 
+at-truck-airport from D1 is mapped to at-truck-airport_m from D2. 
+at-truck-location from D1 is mapped to at-truck-location_m from D2. 
+at-package-location from D1 is mapped to at-package-location_m from D2. 
+at-airplane-airport from D1 is mapped to at-airplane-airport_m from D2. 
+at-package-airport from D1 is mapped to at-package-airport_m from D2. 
+in-airplane from D1 is mapped to in-airplane_m from D2. 
+location-in-city from D1 is mapped to location-in-city_m from D2. 
+airport-in-city from D1 is mapped to airport-in-city_m from D2. 
+###########################
+SMT_task_time = 101.87 
+Planning_task_time = 0.7 
+Total_task_time = 102.56 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between logistics-strips-typed.pddl and logistics-strips-typed_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.6 
+Total_task_time = 0.6 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between logistics-strips-typed.pddl and logistics-strips-typed-M.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+load-truck-location from D1 is mapped to load-truck-location from D2. 
+drive-truck-airport-location from D1 is mapped to drive-truck-airport-location from D2. 
+drive-truck-airport-airport from D1 is mapped to drive-truck-airport-airport from D2. 
+load-truck-airport from D1 is mapped to load-truck-airport from D2. 
+drive-truck-location-location from D1 is mapped to drive-truck-location-location from D2. 
+unload-truck-location from D1 is mapped to unload-truck-location from D2. 
+unload-truck-airport from D1 is mapped to unload-truck-airport from D2. 
+drive-truck-location-airport from D1 is mapped to drive-truck-location-airport from D2. 
+load-airplane from D1 is mapped to load-airplane from D2. 
+unload-airplane from D1 is mapped to unload-airplane from D2. 
+fly-airplane from D1 is mapped to fly-airplane from D2. 
+###########################
+###########################
+Predicates mapping
+in-truck from D1 is mapped to in-truck from D2. 
+at-truck-airport from D1 is mapped to at-truck-airport from D2. 
+at-truck-location from D1 is mapped to at-truck-location from D2. 
+at-package-location from D1 is mapped to at-package-location from D2. 
+at-airplane-airport from D1 is mapped to at-airplane-airport from D2. 
+at-package-airport from D1 is mapped to at-package-airport from D2. 
+in-airplane from D1 is mapped to in-airplane from D2. 
+location-in-city from D1 is mapped to location-in-city from D2. 
+airport-in-city from D1 is mapped to airport-in-city from D2. 
+###########################
+SMT_task_time = 110.82 
+Planning_task_time = 0.66 
+Total_task_time = 111.47 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between logistics-strips-typed.pddl and logistics-strips-typed_invalid_macro.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.7 
+Total_task_time = 0.7 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between logistics-strips-typed.pddl and logistics-strips-typed_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.25 
+Total_task_time = 0.26 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between logistics-strips-typed.pddl and logistics-strips-typed_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.57 
+Total_task_time = 0.58 
+Domain1 and Domain2 are functionally equivalent! 

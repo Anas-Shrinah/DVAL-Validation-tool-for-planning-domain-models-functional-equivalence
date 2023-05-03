@@ -1,0 +1,17 @@
+\newcommand{\logisticsResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{	extwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Logistics with crafted valid macro & No & FE & 1 & Yes & 102.56 & 101.87 & 0.7 \\  \hline
+Logistics with random invalid macro & Yes & NFE & 7 & Yes & 0.7 & 0 & 0.7 \\  \hline
+Logistics with swapped variables & Yes & NCV & 10 & No & 0.26 & 0 & 0.25 \\  \hline
+Logistics with swapped atoms & Yes & NFE & 7 & Yes & 0.58 & 0 & 0.57 \\  \hline
+Logistics with deleted operator & Yes & NFE & 7 & Yes & 0.6 & 0 & 0.6 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the domain logistics and its modified versions. These modifications are detailed in \Cref{tab:logistics_modifications}. The description of the reported values in this table is available in the caption of  \Cref{Tab:Gripper_results}.} 
+\label{tab:logistics_results} 
+\end{center} 
+\end{table}} 

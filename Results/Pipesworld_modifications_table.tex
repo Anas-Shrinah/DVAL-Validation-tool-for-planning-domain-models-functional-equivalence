@@ -1,0 +1,24 @@
+\newcommand{\PipesworldModifications}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|M{0.2\linewidth}|M{0.1\linewidth}|M{0.70\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{Modification description}     \\ \hline  
+Pipesworld with crafted valid macro & Yes & The valid macro operator ``pop-start'' is handcrafted and added to this modified version.
+ \\  \hline
+Pipesworld with random valid macro & Yes & The valid macro operator ``push-start-push-end-pop-start'' is randomly created from the operators of the original domain and added to this modified version.
+ \\  \hline
+Pipesworld with random invalid macro & No & The invalid macro operator ``push-start-push-end-pop-start'' is added to this modified version. This invalid macro is produced from the valid macro that is explained in the previous entry of this table by swapping the add effect (pop-updating ?x1) with the precondition (last ?x2 ?x1) in the original valid macro.
+ \\  \hline
+Pipesworld with swapped variables & No & The variable ?last-batch-atom in the parameters of the delete effect (follow-M ?next-last-batch-atom ?last-batch-atom) in the operator ``push-end'' in the original domain is swapped with the variable ?next-last-batch-atom from the parameters of the same delete effect of the same operator in this modified version.
+ \\  \hline
+Pipesworld with swapped atoms & No & The atom (last ?batch-atom-in ?pipe) in the add effects of the operator ``pop-unitarypipe'' in the original domain is changed to a precondition in this modified version, and the atom (connect ?from-area ?to-area ?pipe ) from the preconditions of the same operator in the original domain is changed to an add effect in this modified version.
+ \\  \hline
+Pipesworld with deleted operator & No & The operator ``push-unitarypipe'' is removed from this modified domain, this operator exists in the original domain.
+ \\  \hline
+\end{tabular}}
+\caption{The description of the modifications applied to the Pipesworld domain to produce its modified versions. Expected impact: ``yes'' means the introduced modification to the original Pipesworld domain is expected to produce a version that is functionally equivalent to the original domain. } 
+\label{tab:PipesworldModifications} 
+\end{center} 
+\end{table}} 

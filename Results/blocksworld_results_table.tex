@@ -1,0 +1,18 @@
+\newcommand{\BlocksworldResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Blocksworld with crafted valid macro & Yes & NFE & 3 & Yes & 1.87 & 0 & 1.86 \\  \hline
+Blocksworld with random valid macro & Yes & FE & 1 & Yes & 6.08 & 4.27 & 1.8 \\  \hline
+Blocksworld with random invalid macro & No & NFE & 4 & Yes & 1.89 & 0 & 1.88 \\  \hline
+Blocksworld with swapped variables & No & NFE & 3 & Yes & 1.69 & 0 & 1.68 \\  \hline
+Blocksworld with swapped atoms & No & NFE & 3 & Yes & 1.59 & 0 & 1.59 \\  \hline
+Blocksworld with deleted operator & No & NFE & 5 & Yes & 1.42 & 0 & 1.42 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the Blocksworld domain and its modified versions. These modifications are detailed in \Cref{tab:blocksworld_modifications}. The description of the reported values in this table is available in the caption of  \Cref{Tab:gripper_results}.} 
+\label{tab:blocksworld_results} 
+\end{center} 
+\end{table}} 

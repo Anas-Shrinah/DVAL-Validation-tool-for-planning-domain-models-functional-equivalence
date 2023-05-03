@@ -1,0 +1,18 @@
+\newcommand{\Child-snackResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Child-snack with crafted valid macro & Yes & FE & 7 & No & 41.33 & 39.79 & 1.52 \\  \hline
+Child-snack with random valid macro & Yes & FE & 7 & No & 40.37 & 38.9 & 1.46 \\  \hline
+Child-snack with random invalid macro & No & NCV & 12 & No & 1.39 & 0 & 1.39 \\  \hline
+Child-snack with swapped variables & No & NCV & 9 & No & 1.5 & 0 & 1.48 \\  \hline
+Child-snack with swapped atoms & No & NCV & 9 & No & 1.52 & 0 & 1.52 \\  \hline
+Child-snack with deleted operator & No & NCV & 11 & No & 1.17 & 0 & 1.17 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the Child-snack domain and its modified versions. These modifications are detailed in \Cref{tab:child-snack_modifications}. The description of the reported values in this table is available in the caption of  \Cref{Tab:gripper_results}.} 
+\label{tab:child-snack_results} 
+\end{center} 
+\end{table}} 

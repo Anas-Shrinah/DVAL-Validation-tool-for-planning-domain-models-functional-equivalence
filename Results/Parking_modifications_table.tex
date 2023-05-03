@@ -1,0 +1,24 @@
+\newcommand{\ParkingModifications}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|M{0.2\linewidth}|M{0.1\linewidth}|M{0.70\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{Modification description}     \\ \hline  
+Parking with crafted valid macro & Yes & The valid macro operator ``move-car-to-curb-move-car-to-car'' is handcrafted and added to this modified version.
+ \\  \hline
+Parking with random valid macro & Yes & The valid macro operator ``move-curb-to-curb-move-curb-to-car-move-car-to-curb'' is randomly created from the operators of the original domain and added to this modified version.
+ \\  \hline
+Parking with random invalid macro & No & The invalid macro operator ``move-curb-to-curb-move-curb-to-car-move-car-to-curb'' is added to this modified version. This invalid macro is produced from the valid macro that is explained in the previous entry of this table by swapping the add effect (at-curb ?x1) with the precondition (at-curb-num ?x1 ?x4) in the original valid macro.
+ \\  \hline
+Parking with swapped variables & No & The variable ?car in the parameters of the add effect (behind-car ?cardest ?car) in the operator ``move-curb-to-car'' in the original domain is swapped with the variable ?cardest from the parameters of the same add effect of the same operator in this modified version.
+ \\  \hline
+Parking with swapped atoms & No & The atom (at-curb ?car) in the add effects of the operator ``move-car-to-curb'' in the original domain is changed to a precondition in this modified version, and the atom (behind-car ?car ?carsrc) from the preconditions of the same operator in the original domain is changed to an add effect in this modified version.
+ \\  \hline
+Parking with deleted operator & No & The operator ``move-curb-to-car'' is removed from this modified domain, this operator exists in the original domain.
+ \\  \hline
+\end{tabular}}
+\caption{The description of the modifications applied to the Parking domain to produce its modified versions. Expected impact: ``yes'' means the introduced modification to the original Parking domain is expected to produce a version that is functionally equivalent to the original domain. } 
+\label{tab:ParkingModifications} 
+\end{center} 
+\end{table}} 

@@ -1,0 +1,213 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between freecell-strips-typed-domain.pddl and freecell-strips-typed-domain_valid_macro.pddl
+************************************************************
+Removing macros from  freecell-strips-typed-domain.pddl
+The action is not a macro move
+The action is not a macro move-b
+The action is not a macro sendtofree
+The action is not a macro sendtofree-b
+The action is not a macro sendtonewcol
+The action is not a macro sendtohome
+The action is not a macro sendtohome-b
+The action is not a macro homefromfreecell
+The action is not a macro colfromfreecell
+The action is not a macro newcolfromfreecell
+Removing macros from  freecell-strips-typed-domain_valid_macro.pddl
+The action is not a macro move_m
+The action is not a macro move-b_m
+The action is not a macro sendtofree_m
+The action is not a macro sendtofree-b_m
+The action is not a macro sendtonewcol_m
+The action is not a macro sendtohome_m
+The action is not a macro sendtohome-b_m
+The action is not a macro homefromfreecell_m
+The action is not a macro colfromfreecell_m
+The action is not a macro newcolfromfreecell_m
+The action is a macro move-move-b-sendtofree_m
+Checking if the domain specified in this file is a complex domain freecell-strips-typed-domain.pddl
+Domain1 is NOT a complex domain
+Checking if the domain specified in this file is is a complex domain freecell-strips-typed-domain_valid_macro.pddl
+Domain2 is NOT a complex domain
+Finding primitives in  freecell-strips-typed-domain.pddl
+aborting current planning task
+The action is not  primitive  move
+aborting current planning task
+The action is not  primitive  move-b
+aborting current planning task
+The action is not  primitive  sendtofree
+aborting current planning task
+The action is not  primitive  sendtofree-b
+aborting current planning task
+The action is not  primitive  sendtonewcol
+aborting current planning task
+The action is not  primitive  sendtohome
+aborting current planning task
+The action is not  primitive  sendtohome-b
+aborting current planning task
+The action is not  primitive  homefromfreecell
+aborting current planning task
+The action is not  primitive  colfromfreecell
+aborting current planning task
+The action is not  primitive  newcolfromfreecell
+Finding primitives in   freecell-strips-typed-domain_valid_macro.pddl
+aborting current planning task
+The action is not  primitive  move_m
+aborting current planning task
+The action is not  primitive  move-b_m
+aborting current planning task
+The action is not  primitive  sendtofree_m
+aborting current planning task
+The action is not  primitive  sendtofree-b_m
+aborting current planning task
+The action is not  primitive  sendtonewcol_m
+aborting current planning task
+The action is not  primitive  sendtohome_m
+aborting current planning task
+The action is not  primitive  sendtohome-b_m
+aborting current planning task
+The action is not  primitive  homefromfreecell_m
+aborting current planning task
+The action is not  primitive  colfromfreecell_m
+aborting current planning task
+The action is not  primitive  newcolfromfreecell_m
+Generating the SMT constraints...
+Searching for a solution for the SMT constraints problem...
+ ?card 1 incell sendtofree ?card 1         is ?card 1 incell_m sendtofree_m ?card 1
+ ?card 2 value sendtohome ?card?vcard 1    is ?card 2 value_m sendtohome_m ?card?vcard 1
+ ?card 2 canstack move ?card?newcard 1     is ?card 2 canstack_m move_m ?card?newcard 1
+ ?card 1 clear sendtohome ?card 1          is ?card 1 clear_m sendtohome_m ?card 1
+ ?card 1 clear sendtonewcol ?card 1        is ?card 1 clear_m sendtonewcol_m ?card 1
+ ?card 1 bottomcol move-b ?card 1          is ?card 1 bottomcol_m move-b_m ?card 1
+ ?card 2 on colfromfreecell ?card?newcard 1  is ?card 2 on_m colfromfreecell_m ?card?newcard 1
+ ?card 1 clear colfromfreecell ?card 1     is ?card 1 clear_m colfromfreecell_m ?card 1
+ ?card 1 home sendtohome-b ?card 1         is ?card 1 home_m sendtohome-b_m ?card 1
+ ?card 2 on sendtonewcol ?card?oldcard 1   is ?card 2 on_m sendtonewcol_m ?card?oldcard 1
+ ?card 2 on sendtofree ?card?oldcard 1     is ?card 2 on_m sendtofree_m ?card?oldcard 1
+ ?card 1 bottomcol sendtohome-b ?card 1    is ?card 1 bottomcol_m sendtohome-b_m ?card 1
+ ?card 1 bottomcol sendtofree-b ?card 1    is ?card 1 bottomcol_m sendtofree-b_m ?card 1
+ ?card 1 clear sendtofree ?card 1          is ?card 1 clear_m sendtofree_m ?card 1
+ ?card 1 incell sendtofree-b ?card 1       is ?card 1 incell_m sendtofree-b_m ?card 1
+ ?card 2 canstack move-b ?card?newcard 1   is ?card 2 canstack_m move-b_m ?card?newcard 1
+ ?card 2 on move ?card?newcard 1           is ?card 2 on_m move_m ?card?newcard 1
+ ?card 1 clear newcolfromfreecell ?card 1  is ?card 1 clear_m newcolfromfreecell_m ?card 1
+ ?card 1 incell newcolfromfreecell ?card 1  is ?card 1 incell_m newcolfromfreecell_m ?card 1
+ ?card 2 value homefromfreecell ?card?vcard 1  is ?card 2 value_m homefromfreecell_m ?card?vcard 1
+ ?card 2 on sendtohome ?card?oldcard 1     is ?card 2 on_m sendtohome_m ?card?oldcard 1
+ ?card 1 bottomcol sendtonewcol ?card 1    is ?card 1 bottomcol_m sendtonewcol_m ?card 1
+ ?card 1 bottomcol newcolfromfreecell ?card 1  is ?card 1 bottomcol_m newcolfromfreecell_m ?card 1
+ ?card 2 on move-b ?card?newcard 1         is ?card 2 on_m move-b_m ?card?newcard 1
+ ?card 1 clear move ?card 1                is ?card 1 clear_m move_m ?card 1
+ ?card 2 on move ?card?oldcard 1           is ?card 2 on_m move_m ?card?oldcard 1
+ ?card 1 clear move-b ?card 1              is ?card 1 clear_m move-b_m ?card 1
+ ?card 1 home sendtohome ?card 1           is ?card 1 home_m sendtohome_m ?card 1
+ ?card 1 home homefromfreecell ?card 1     is ?card 1 home_m homefromfreecell_m ?card 1
+ ?card 1 clear sendtohome-b ?card 1        is ?card 1 clear_m sendtohome-b_m ?card 1
+ ?card 2 suit homefromfreecell ?card?suit 1  is ?card 2 suit_m homefromfreecell_m ?card?suit 1
+ ?card 1 incell colfromfreecell ?card 1    is ?card 1 incell_m colfromfreecell_m ?card 1
+ ?card 2 canstack colfromfreecell ?card?newcard 1  is ?card 2 canstack_m colfromfreecell_m ?card?newcard 1
+ ?card 2 value sendtohome-b ?card?vcard 1  is ?card 2 value_m sendtohome-b_m ?card?vcard 1
+ ?card 2 suit sendtohome ?card?suit 1      is ?card 2 suit_m sendtohome_m ?card?suit 1
+ ?card 2 suit sendtohome-b ?card?suit 1    is ?card 2 suit_m sendtohome-b_m ?card?suit 1
+ ?card 1 incell homefromfreecell ?card 1   is ?card 1 incell_m homefromfreecell_m ?card 1
+ ?card 1 clear sendtofree-b ?card 1        is ?card 1 clear_m sendtofree-b_m ?card 1
+ ?cells 2 successor colfromfreecell ?ncells?cells 2  is ?cells 2 successor_m colfromfreecell_m ?ncells?cells 2
+ ?cells 1 cellspace homefromfreecell ?cells 1  is ?cells 1 cellspace_m homefromfreecell_m ?cells 1
+ ?cells 1 cellspace newcolfromfreecell ?cells 1  is ?cells 1 cellspace_m newcolfromfreecell_m ?cells 1
+ ?cells 2 successor sendtofree ?cells?ncells 1  is ?cells 2 successor_m sendtofree_m ?cells?ncells 1
+ ?cells 1 cellspace colfromfreecell ?cells 1  is ?cells 1 cellspace_m colfromfreecell_m ?cells 1
+ ?cells 2 successor homefromfreecell ?ncells?cells 2  is ?cells 2 successor_m homefromfreecell_m ?ncells?cells 2
+ ?cells 2 successor newcolfromfreecell ?ncells?cells 2  is ?cells 2 successor_m newcolfromfreecell_m ?ncells?cells 2
+ ?cells 1 cellspace sendtofree ?cells 1    is ?cells 1 cellspace_m sendtofree_m ?cells 1
+ ?cells 1 cellspace sendtofree-b ?cells 1  is ?cells 1 cellspace_m sendtofree-b_m ?cells 1
+ ?cells 2 successor sendtofree-b ?cells?ncells 1  is ?cells 2 successor_m sendtofree-b_m ?cells?ncells 1
+ ?cols 1 colspace newcolfromfreecell ?cols 1  is ?cols 1 colspace_m newcolfromfreecell_m ?cols 1
+ ?cols 2 successor move-b ?ncols?cols 2    is ?cols 2 successor_m move-b_m ?ncols?cols 2
+ ?cols 1 colspace sendtofree-b ?cols 1     is ?cols 1 colspace_m sendtofree-b_m ?cols 1
+ ?cols 2 successor newcolfromfreecell ?cols?ncols 1  is ?cols 2 successor_m newcolfromfreecell_m ?cols?ncols 1
+ ?cols 1 colspace sendtonewcol ?cols 1     is ?cols 1 colspace_m sendtonewcol_m ?cols 1
+ ?cols 1 colspace sendtohome-b ?cols 1     is ?cols 1 colspace_m sendtohome-b_m ?cols 1
+ ?cols 2 successor sendtonewcol ?cols?ncols 1  is ?cols 2 successor_m sendtonewcol_m ?cols?ncols 1
+ ?cols 1 colspace move-b ?cols 1           is ?cols 1 colspace_m move-b_m ?cols 1
+ ?cols 2 successor sendtohome-b ?ncols?cols 2  is ?cols 2 successor_m sendtohome-b_m ?ncols?cols 2
+ ?cols 2 successor sendtofree-b ?ncols?cols 2  is ?cols 2 successor_m sendtofree-b_m ?ncols?cols 2
+ ?ncells 2 successor sendtofree ?cells?ncells 2  is ?ncells 2 successor_m sendtofree_m ?cells?ncells 2
+ ?ncells 1 cellspace sendtofree-b ?ncells 1  is ?ncells 1 cellspace_m sendtofree-b_m ?ncells 1
+ ?ncells 2 successor colfromfreecell ?ncells?cells 1  is ?ncells 2 successor_m colfromfreecell_m ?ncells?cells 1
+ ?ncells 2 successor homefromfreecell ?ncells?cells 1  is ?ncells 2 successor_m homefromfreecell_m ?ncells?cells 1
+ ?ncells 1 cellspace newcolfromfreecell ?ncells 1  is ?ncells 1 cellspace_m newcolfromfreecell_m ?ncells 1
+ ?ncells 1 cellspace sendtofree ?ncells 1  is ?ncells 1 cellspace_m sendtofree_m ?ncells 1
+ ?ncells 1 cellspace colfromfreecell ?ncells 1  is ?ncells 1 cellspace_m colfromfreecell_m ?ncells 1
+ ?ncells 2 successor sendtofree-b ?cells?ncells 2  is ?ncells 2 successor_m sendtofree-b_m ?cells?ncells 2
+ ?ncells 2 successor newcolfromfreecell ?ncells?cells 1  is ?ncells 2 successor_m newcolfromfreecell_m ?ncells?cells 1
+ ?ncells 1 cellspace homefromfreecell ?ncells 1  is ?ncells 1 cellspace_m homefromfreecell_m ?ncells 1
+ ?ncols 2 successor sendtofree-b ?ncols?cols 1  is ?ncols 2 successor_m sendtofree-b_m ?ncols?cols 1
+ ?ncols 1 colspace sendtohome-b ?ncols 1   is ?ncols 1 colspace_m sendtohome-b_m ?ncols 1
+ ?ncols 2 successor newcolfromfreecell ?cols?ncols 2  is ?ncols 2 successor_m newcolfromfreecell_m ?cols?ncols 2
+ ?ncols 2 successor sendtonewcol ?cols?ncols 2  is ?ncols 2 successor_m sendtonewcol_m ?cols?ncols 2
+ ?ncols 1 colspace sendtonewcol ?ncols 1   is ?ncols 1 colspace_m sendtonewcol_m ?ncols 1
+ ?ncols 2 successor move-b ?ncols?cols 1   is ?ncols 2 successor_m move-b_m ?ncols?cols 1
+ ?ncols 1 colspace newcolfromfreecell ?ncols 1  is ?ncols 1 colspace_m newcolfromfreecell_m ?ncols 1
+ ?ncols 1 colspace sendtofree-b ?ncols 1   is ?ncols 1 colspace_m sendtofree-b_m ?ncols 1
+ ?ncols 2 successor sendtohome-b ?ncols?cols 1  is ?ncols 2 successor_m sendtohome-b_m ?ncols?cols 1
+ ?ncols 1 colspace move-b ?ncols 1         is ?ncols 1 colspace_m move-b_m ?ncols 1
+ ?homecard 2 value sendtohome ?homecard?vhomecard 1  is ?homecard 2 value_m sendtohome_m ?homecard?vhomecard 1
+ ?homecard 2 value sendtohome-b ?homecard?vhomecard 1  is ?homecard 2 value_m sendtohome-b_m ?homecard?vhomecard 1
+ ?homecard 1 home sendtohome-b ?homecard 1  is ?homecard 1 home_m sendtohome-b_m ?homecard 1
+ ?homecard 1 home sendtohome ?homecard 1   is ?homecard 1 home_m sendtohome_m ?homecard 1
+ ?homecard 1 home homefromfreecell ?homecard 1  is ?homecard 1 home_m homefromfreecell_m ?homecard 1
+ ?homecard 2 suit sendtohome-b ?homecard?suit 1  is ?homecard 2 suit_m sendtohome-b_m ?homecard?suit 1
+ ?homecard 2 value homefromfreecell ?homecard?vhomecard 1  is ?homecard 2 value_m homefromfreecell_m ?homecard?vhomecard 1
+ ?homecard 2 suit sendtohome ?homecard?suit 1  is ?homecard 2 suit_m sendtohome_m ?homecard?suit 1
+ ?homecard 2 suit homefromfreecell ?homecard?suit 1  is ?homecard 2 suit_m homefromfreecell_m ?homecard?suit 1
+ ?newcard 2 canstack colfromfreecell ?card?newcard 2  is ?newcard 2 canstack_m colfromfreecell_m ?card?newcard 2
+ ?newcard 1 clear move ?newcard 1          is ?newcard 1 clear_m move_m ?newcard 1
+ ?newcard 2 on move-b ?card?newcard 2      is ?newcard 2 on_m move-b_m ?card?newcard 2
+ ?newcard 2 on colfromfreecell ?card?newcard 2  is ?newcard 2 on_m colfromfreecell_m ?card?newcard 2
+ ?newcard 1 clear colfromfreecell ?newcard 1  is ?newcard 1 clear_m colfromfreecell_m ?newcard 1
+ ?newcard 1 clear move-b ?newcard 1        is ?newcard 1 clear_m move-b_m ?newcard 1
+ ?newcard 2 canstack move-b ?card?newcard 2  is ?newcard 2 canstack_m move-b_m ?card?newcard 2
+ ?newcard 2 canstack move ?card?newcard 2  is ?newcard 2 canstack_m move_m ?card?newcard 2
+ ?newcard 2 on move ?card?newcard 2        is ?newcard 2 on_m move_m ?card?newcard 2
+ ?oldcard 2 on sendtohome ?card?oldcard 2  is ?oldcard 2 on_m sendtohome_m ?card?oldcard 2
+ ?oldcard 1 clear sendtohome ?oldcard 1    is ?oldcard 1 clear_m sendtohome_m ?oldcard 1
+ ?oldcard 1 clear move ?oldcard 1          is ?oldcard 1 clear_m move_m ?oldcard 1
+ ?oldcard 2 on sendtonewcol ?card?oldcard 2  is ?oldcard 2 on_m sendtonewcol_m ?card?oldcard 2
+ ?oldcard 1 clear sendtonewcol ?oldcard 1  is ?oldcard 1 clear_m sendtonewcol_m ?oldcard 1
+ ?oldcard 2 on sendtofree ?card?oldcard 2  is ?oldcard 2 on_m sendtofree_m ?card?oldcard 2
+ ?oldcard 2 on move ?card?oldcard 2        is ?oldcard 2 on_m move_m ?card?oldcard 2
+ ?oldcard 1 clear sendtofree ?oldcard 1    is ?oldcard 1 clear_m sendtofree_m ?oldcard 1
+ ?suit 2 suit homefromfreecell ?homecard?suit 2  is ?suit 2 suit_m homefromfreecell_m ?homecard?suit 2
+ ?suit 2 suit sendtohome-b ?card?suit 2    is ?suit 2 suit_m sendtohome-b_m ?card?suit 2
+ ?suit 2 suit sendtohome-b ?homecard?suit 2  is ?suit 2 suit_m sendtohome-b_m ?homecard?suit 2
+ ?suit 2 suit homefromfreecell ?card?suit 2  is ?suit 2 suit_m homefromfreecell_m ?card?suit 2
+ ?suit 2 suit sendtohome ?homecard?suit 2  is ?suit 2 suit_m sendtohome_m ?homecard?suit 2
+ ?suit 2 suit sendtohome ?card?suit 2      is ?suit 2 suit_m sendtohome_m ?card?suit 2
+ ?vcard 2 value homefromfreecell ?card?vcard 2  is ?vcard 2 value_m homefromfreecell_m ?card?vcard 2
+ ?vcard 2 successor sendtohome ?vcard?vhomecard 1  is ?vcard 2 successor_m sendtohome_m ?vcard?vhomecard 1
+ ?vcard 2 successor homefromfreecell ?vcard?vhomecard 1  is ?vcard 2 successor_m homefromfreecell_m ?vcard?vhomecard 1
+ ?vcard 2 value sendtohome-b ?card?vcard 2  is ?vcard 2 value_m sendtohome-b_m ?card?vcard 2
+ ?vcard 2 value sendtohome ?card?vcard 2   is ?vcard 2 value_m sendtohome_m ?card?vcard 2
+ ?vcard 2 successor sendtohome-b ?vcard?vhomecard 1  is ?vcard 2 successor_m sendtohome-b_m ?vcard?vhomecard 1
+ ?vhomecard 2 successor sendtohome ?vcard?vhomecard 2  is ?vhomecard 2 successor_m sendtohome_m ?vcard?vhomecard 2
+ ?vhomecard 2 successor homefromfreecell ?vcard?vhomecard 2  is ?vhomecard 2 successor_m homefromfreecell_m ?vcard?vhomecard 2
+ ?vhomecard 2 value sendtohome ?homecard?vhomecard 2  is ?vhomecard 2 value_m sendtohome_m ?homecard?vhomecard 2
+ ?vhomecard 2 value homefromfreecell ?homecard?vhomecard 2  is ?vhomecard 2 value_m homefromfreecell_m ?homecard?vhomecard 2
+ ?vhomecard 2 value sendtohome-b ?homecard?vhomecard 2  is ?vhomecard 2 value_m sendtohome-b_m ?homecard?vhomecard 2
+ ?vhomecard 2 successor sendtohome-b ?vcard?vhomecard 2  is ?vhomecard 2 successor_m sendtohome-b_m ?vcard?vhomecard 2
+Domain1 and Domain2 are functionally equivalent!
+###########################
+Primitive operators mapping
+{'sendtofree': 'sendtofree_m', 'sendtohome': 'sendtohome_m', 'move': 'move_m', 'sendtonewcol': 'sendtonewcol_m', 'move-b': 'move-b_m', 'colfromfreecell': 'colfromfreecell_m', 'sendtohome-b': 'sendtohome-b_m', 'sendtofree-b': 'sendtofree-b_m', 'newcolfromfreecell': 'newcolfromfreecell_m', 'homefromfreecell': 'homefromfreecell_m'}
+###########################
+###########################
+Predicates mapping
+{'incell': 'incell_m', 'value': 'value_m', 'canstack': 'canstack_m', 'clear': 'clear_m', 'bottomcol': 'bottomcol_m', 'on': 'on_m', 'home': 'home_m', 'suit': 'suit_m', 'successor': 'successor_m', 'cellspace': 'cellspace_m', 'colspace': 'colspace_m'}
+###########################
+There is a predicate consistent mapping from the atoms of the primitive operators of D1 to the atoms of the primitive operators of D2 as per the operator-structure theorem.
+Both domains are simple domains.
+SMT_task_time =  4840.12
+planning_task_time =  123.07
+total_task_time =  4963.21
+Domain1 and Domain2 are functionally equivalent!
+************************************************************

@@ -1,0 +1,18 @@
+\newcommand{\ElevatorResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Elevator with crafted valid macro & Yes & FE & 12 & No & 2.48 & 1.93 & 0.54 \\  \hline
+Elevator with random valid macro & Yes & FE & 12 & No & 2.45 & 1.92 & 0.51 \\  \hline
+Elevator with random invalid macro & No & NCV & 17 & No & 0.51 & 0 & 0.5 \\  \hline
+Elevator with swapped variables & No & NCV & 13 & No & 1.74 & 1.29 & 0.44 \\  \hline
+Elevator with swapped atoms & No & NCV & 13 & No & 1.87 & 1.42 & 0.42 \\  \hline
+Elevator with deleted operator & No & NCV & 16 & No & 0.36 & 0 & 0.35 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the Elevator domain and its modified versions. These modifications are detailed in \Cref{tab:ElevatorModifications}. The description of the reported values in this table is available in the caption of  \Cref{tab:GripperResults}.Some of the non-macro operatros in this domain and its modifed versions are found to be not primitive.} 
+\label{tab:ElevatorResults} 
+\end{center} 
+\end{table}} 

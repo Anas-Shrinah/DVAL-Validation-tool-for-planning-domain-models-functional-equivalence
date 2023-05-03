@@ -1,0 +1,18 @@
+\newcommand{\Floor-tileResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Floor-tile with crafted valid macro & Yes & FE & 7 & No & 329.77 & 327.95 & 1.82 \\  \hline
+Floor-tile with random valid macro & Yes & FE & 7 & No & 315.72 & 314.08 & 1.62 \\  \hline
+Floor-tile with random invalid macro & No & NCV & 12 & No & 1.64 & 0 & 1.61 \\  \hline
+Floor-tile with swapped variables & No & NCV & 10 & No & 1.64 & 0 & 1.63 \\  \hline
+Floor-tile with swapped atoms & No & NCV & 8 & No & 304.61 & 302.85 & 1.74 \\  \hline
+Floor-tile with deleted operator & No & NCV & 11 & No & 1.71 & 0 & 1.67 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the Floor-tile domain and its modified versions. These modifications are detailed in \Cref{tab:floor-tile_modifications}. The description of the reported values in this table is available in the caption of  \Cref{Tab:gripper_results}.} 
+\label{tab:floor-tile_results} 
+\end{center} 
+\end{table}} 

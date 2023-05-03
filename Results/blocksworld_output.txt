@@ -1,0 +1,62 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between blocks-strips-typed.pddl and blocks-strips-typed-M.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.86 
+Total_task_time = 1.87 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between blocks-strips-typed.pddl and blocks-strips-typed_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.42 
+Total_task_time = 1.42 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between blocks-strips-typed.pddl and blocks-strips-typed_invalid_macro.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.88 
+Total_task_time = 1.89 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between blocks-strips-typed.pddl and blocks-strips-typed_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+pick-up from D1 is mapped to pick-up_m from D2. 
+unstack from D1 is mapped to unstack_m from D2. 
+put-down from D1 is mapped to put-down_m from D2. 
+stack from D1 is mapped to stack_m from D2. 
+###########################
+###########################
+Predicates mapping
+clear from D1 is mapped to clear_m from D2. 
+holding from D1 is mapped to holding_m from D2. 
+on from D1 is mapped to on_m from D2. 
+ontable from D1 is mapped to ontable_m from D2. 
+###########################
+SMT_task_time = 4.27 
+Planning_task_time = 1.8 
+Total_task_time = 6.08 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between blocks-strips-typed.pddl and blocks-strips-typed_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.68 
+Total_task_time = 1.69 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between blocks-strips-typed.pddl and blocks-strips-typed_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.59 
+Total_task_time = 1.59 
+Domain1 and Domain2 are functionally equivalent! 

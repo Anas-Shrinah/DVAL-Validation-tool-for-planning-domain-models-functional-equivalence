@@ -1,0 +1,87 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between gripper-round-1-adl-domain.pddl and gripper-round-1-adl-domain-M.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+drop from D1 is mapped to drop from D2. 
+pick from D1 is mapped to pick from D2. 
+move from D1 is mapped to move from D2. 
+###########################
+###########################
+Predicates mapping
+free from D1 is mapped to free from D2. 
+carry from D1 is mapped to carry from D2. 
+at from D1 is mapped to at from D2. 
+at-robby from D1 is mapped to at-robby from D2. 
+###########################
+SMT_task_time = 2.06 
+Planning_task_time = 1.0 
+Total_task_time = 3.07 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between gripper-round-1-adl-domain.pddl and gripper-round-1-adl-domain_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.76 
+Total_task_time = 0.76 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between gripper-round-1-adl-domain.pddl and gripper-round-1-adl-domain_invalid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+drop from D1 is mapped to drop_m from D2. 
+pick from D1 is mapped to pick_m from D2. 
+move from D1 is mapped to move_m from D2. 
+###########################
+###########################
+Predicates mapping
+free from D1 is mapped to free_m from D2. 
+carry from D1 is mapped to carry_m from D2. 
+at from D1 is mapped to at_m from D2. 
+at-robby from D1 is mapped to at-robby_m from D2. 
+###########################
+SMT_task_time = 2.53 
+Planning_task_time = 0.93 
+Total_task_time = 3.47 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between gripper-round-1-adl-domain.pddl and gripper-round-1-adl-domain_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.65 
+Total_task_time = 0.65 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between gripper-round-1-adl-domain.pddl and gripper-round-1-adl-domain_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+drop from D1 is mapped to drop_m from D2. 
+pick from D1 is mapped to pick_m from D2. 
+move from D1 is mapped to move_m from D2. 
+###########################
+###########################
+Predicates mapping
+free from D1 is mapped to free_m from D2. 
+carry from D1 is mapped to carry_m from D2. 
+at from D1 is mapped to at_m from D2. 
+at-robby from D1 is mapped to at-robby_m from D2. 
+###########################
+SMT_task_time = 2.54 
+Planning_task_time = 0.97 
+Total_task_time = 3.53 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between gripper-round-1-adl-domain.pddl and gripper-round-1-adl-domain_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.84 
+Total_task_time = 0.85 
+Domain1 and Domain2 are functionally equivalent! 

@@ -1,0 +1,18 @@
+\newcommand{\PipesworldResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Pipesworld with crafted valid macro & Yes & FE & 7 & No & 3032.7 & 3031.13 & 1.55 \\  \hline
+Pipesworld with random valid macro & Yes & FE & 7 & No & 2768.77 & 2767.39 & 1.38 \\  \hline
+Pipesworld with random invalid macro & No & NCV & 12 & No & 1.34 & 0 & 1.28 \\  \hline
+Pipesworld with swapped variables & No & NCV & 10 & No & 1.51 & 0 & 1.49 \\  \hline
+Pipesworld with swapped atoms & No & NCV & 10 & No & 1.51 & 0 & 1.48 \\  \hline
+Pipesworld with deleted operator & No & NCV & 11 & No & 1.36 & 0 & 1.33 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the Pipesworld domain and its modified versions. These modifications are detailed in \Cref{tab:pipesworld_modifications}. The description of the reported values in this table is available in the caption of  \Cref{Tab:gripper_results}.} 
+\label{tab:pipesworld_results} 
+\end{center} 
+\end{table}} 

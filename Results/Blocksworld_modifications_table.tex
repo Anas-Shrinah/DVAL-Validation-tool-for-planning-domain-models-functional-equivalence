@@ -1,0 +1,24 @@
+\newcommand{\BlocksworldModifications}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|M{0.2\linewidth}|M{0.1\linewidth}|M{0.70\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{Modification description}     \\ \hline  
+Blocksworld with crafted valid macro & Yes & The valid macro operator ``pick-up-stack'' is handcrafted and added to this modified version.
+ \\  \hline
+Blocksworld with random valid macro & Yes & The valid macro operator ``pick-up-put-down-stack'' is randomly created from the operators of the original domain and added to this modified version.
+ \\  \hline
+Blocksworld with random invalid macro & No & The invalid macro operator ``pick-up-put-down-stack'' is added to this modified version. This invalid macro is produced from the valid macro that is explained in the previous entry of this table by swapping the add effect (clear ?x2) with the precondition (ontable-M ?x1 ) in the original valid macro.
+ \\  \hline
+Blocksworld with swapped variables & No & The variable ?x in the parameters of the add effect (on ?y ?x) in the operator ``stack'' in the original domain is swapped with the variable ?y from the parameters of the same add effect of the same operator in this modified version.
+ \\  \hline
+Blocksworld with swapped atoms & No & The atom (clear ?y) in the add effects of the operator ``unstack'' in the original domain is changed to a precondition in this modified version, and the atom (clear ?x) from the preconditions of the same operator in the original domain is changed to an add effect in this modified version.
+ \\  \hline
+Blocksworld with deleted operator & No & The operator ``unstack'' is removed from this modified domain, this operator exists in the original domain.
+ \\  \hline
+\end{tabular}}
+\caption{The description of the modifications applied to the Blocksworld domain to produce its modified versions. Expected impact: ``yes'' means the introduced modification to the original Blocksworld domain is expected to produce a version that is functionally equivalent to the original domain. } 
+\label{tab:BlocksworldModifications} 
+\end{center} 
+\end{table}} 

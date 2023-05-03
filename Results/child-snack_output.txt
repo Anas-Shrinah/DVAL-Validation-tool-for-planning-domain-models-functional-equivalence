@@ -1,0 +1,100 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between child-snack-sequential-satisficing.pddl and child-snack-sequential-satisficing_invalid_macro.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.39 
+Total_task_time = 1.39 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between child-snack-sequential-satisficing.pddl and child-snack-sequential-satisficing_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.17 
+Total_task_time = 1.17 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between child-snack-sequential-satisficing.pddl and child-snack-sequential-satisficing_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+make_sandwich from D1 is mapped to make_sandwich_m from D2. 
+serve_sandwich_no_gluten from D1 is mapped to serve_sandwich_no_gluten_m from D2. 
+make_sandwich_no_gluten from D1 is mapped to make_sandwich_no_gluten_m from D2. 
+put_on_tray from D1 is mapped to put_on_tray_m from D2. 
+serve_sandwich from D1 is mapped to serve_sandwich_m from D2. 
+move_tray from D1 is mapped to move_tray_m from D2. 
+###########################
+###########################
+Predicates mapping
+notexist from D1 is mapped to notexist_m from D2. 
+ontray from D1 is mapped to ontray_m from D2. 
+no_gluten_sandwich from D1 is mapped to no_gluten_sandwich_m from D2. 
+at_kitchen_sandwich from D1 is mapped to at_kitchen_sandwich_m from D2. 
+at_kitchen_content from D1 is mapped to at_kitchen_bread_m from D2. 
+allergic_gluten from D1 is mapped to allergic_gluten_m from D2. 
+waiting from D1 is mapped to waiting_m from D2. 
+not_allergic_gluten from D1 is mapped to not_allergic_gluten_m from D2. 
+no_gluten_content from D1 is mapped to no_gluten_bread_m from D2. 
+served from D1 is mapped to served_m from D2. 
+at_kitchen_tray from D1 is mapped to at_kitchen_tray_m from D2. 
+at from D1 is mapped to at_m from D2. 
+at_kitchen_bread from D1 is mapped to at_kitchen_content_m from D2. 
+no_gluten_bread from D1 is mapped to no_gluten_content_m from D2. 
+###########################
+SMT_task_time = 38.9 
+Planning_task_time = 1.46 
+Total_task_time = 40.37 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between child-snack-sequential-satisficing.pddl and child-snack-sequential-satisficing-M.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+make_sandwich from D1 is mapped to make_sandwich from D2. 
+serve_sandwich_no_gluten from D1 is mapped to serve_sandwich_no_gluten from D2. 
+make_sandwich_no_gluten from D1 is mapped to make_sandwich_no_gluten from D2. 
+put_on_tray from D1 is mapped to put_on_tray from D2. 
+serve_sandwich from D1 is mapped to serve_sandwich from D2. 
+move_tray from D1 is mapped to move_tray from D2. 
+###########################
+###########################
+Predicates mapping
+notexist from D1 is mapped to notexist from D2. 
+ontray from D1 is mapped to ontray from D2. 
+no_gluten_sandwich from D1 is mapped to no_gluten_sandwich from D2. 
+at_kitchen_sandwich from D1 is mapped to at_kitchen_sandwich from D2. 
+at_kitchen_content from D1 is mapped to at_kitchen_bread from D2. 
+allergic_gluten from D1 is mapped to allergic_gluten from D2. 
+waiting from D1 is mapped to waiting from D2. 
+not_allergic_gluten from D1 is mapped to not_allergic_gluten from D2. 
+no_gluten_content from D1 is mapped to no_gluten_bread from D2. 
+served from D1 is mapped to served from D2. 
+at_kitchen_tray from D1 is mapped to at_kitchen_tray from D2. 
+at from D1 is mapped to at from D2. 
+at_kitchen_bread from D1 is mapped to at_kitchen_content from D2. 
+no_gluten_bread from D1 is mapped to no_gluten_content from D2. 
+###########################
+SMT_task_time = 39.79 
+Planning_task_time = 1.52 
+Total_task_time = 41.33 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between child-snack-sequential-satisficing.pddl and child-snack-sequential-satisficing_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.52 
+Total_task_time = 1.52 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between child-snack-sequential-satisficing.pddl and child-snack-sequential-satisficing_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 1.48 
+Total_task_time = 1.5 
+Domain1 and Domain2 are functionally equivalent! 

@@ -1,0 +1,18 @@
+\newcommand{\ElevatorResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Elevator with random valid macro & Yes & FE & 7 & No & 6.61 & 5.54 & 1.03 \\  \hline
+Elevator with random valid macro & Yes & FE & 7 & No & 7.13 & 5.97 & 1.13 \\  \hline
+Elevator with random invalid macro & No & FE & 7 & No & 6.48 & 5.37 & 1.08 \\  \hline
+Elevator with swapped variables & No & NCV & 8 & No & 4.81 & 3.92 & 0.88 \\  \hline
+Elevator with swapped atoms & No & NCV & 8 & No & 4.49 & 3.62 & 0.84 \\  \hline
+Elevator with deleted operator & No & NCV & 11 & No & 0.72 & 0 & 0.72 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the Elevator domain and its modified versions. These modifications are detailed in \Cref{tab:elevator_modifications}. The description of the reported values in this table is available in the caption of  \Cref{Tab:gripper_results}.} 
+\label{tab:elevator_results} 
+\end{center} 
+\end{table}} 

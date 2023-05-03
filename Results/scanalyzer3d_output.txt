@@ -1,0 +1,80 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between scanalyzer-3d-sequential-satisficing.pddl and scanalyzer-3d-sequential-satisficing_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.11 
+Total_task_time = 0.11 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between scanalyzer-3d-sequential-satisficing.pddl and scanalyzer-3d-sequential-satisficing-M.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+analyze-4 from D1 is mapped to analyze-4 from D2. 
+rotate-2 from D1 is mapped to rotate-2 from D2. 
+analyze-2 from D1 is mapped to analyze-2 from D2. 
+rotate-4 from D1 is mapped to rotate-4 from D2. 
+###########################
+###########################
+Predicates mapping
+on from D1 is mapped to on from D2. 
+cycle-2 from D1 is mapped to cycle-2 from D2. 
+cycle-4-with-analysis from D1 is mapped to cycle-4-with-analysis from D2. 
+cycle-4 from D1 is mapped to cycle-4 from D2. 
+cycle-2-with-analysis from D1 is mapped to cycle-2-with-analysis from D2. 
+analyzed from D1 is mapped to analyzed from D2. 
+###########################
+SMT_task_time = 57.24 
+Planning_task_time = 0.13 
+Total_task_time = 57.37 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between scanalyzer-3d-sequential-satisficing.pddl and scanalyzer-3d-sequential-satisficing_invalid_macro.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.14 
+Total_task_time = 0.14 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between scanalyzer-3d-sequential-satisficing.pddl and scanalyzer-3d-sequential-satisficing_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.1 
+Total_task_time = 0.1 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between scanalyzer-3d-sequential-satisficing.pddl and scanalyzer-3d-sequential-satisficing_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.11 
+Total_task_time = 0.11 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between scanalyzer-3d-sequential-satisficing.pddl and scanalyzer-3d-sequential-satisficing_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+analyze-4 from D1 is mapped to analyze-4_m from D2. 
+rotate-2 from D1 is mapped to rotate-2_m from D2. 
+analyze-2 from D1 is mapped to analyze-2_m from D2. 
+rotate-4 from D1 is mapped to rotate-4_m from D2. 
+###########################
+###########################
+Predicates mapping
+on from D1 is mapped to on_m from D2. 
+cycle-2 from D1 is mapped to cycle-2_m from D2. 
+cycle-4-with-analysis from D1 is mapped to cycle-4-with-analysis_m from D2. 
+cycle-4 from D1 is mapped to cycle-4_m from D2. 
+cycle-2-with-analysis from D1 is mapped to cycle-2-with-analysis_m from D2. 
+analyzed from D1 is mapped to analyzed_m from D2. 
+###########################
+SMT_task_time = 56.12 
+Planning_task_time = 0.12 
+Total_task_time = 56.24 
+Domain1 and Domain2 are functionally equivalent! 

@@ -1,0 +1,78 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between parking-sequential-satisficing.pddl and parking-sequential-satisficing_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.16 
+Total_task_time = 0.16 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between parking-sequential-satisficing.pddl and parking-sequential-satisficing_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.17 
+Total_task_time = 0.17 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between parking-sequential-satisficing.pddl and parking-sequential-satisficing-M.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+move-car-to-car from D1 is mapped to move-car-to-car from D2. 
+move-curb-to-curb from D1 is mapped to move-curb-to-curb from D2. 
+move-curb-to-car from D1 is mapped to move-curb-to-car from D2. 
+move-car-to-curb from D1 is mapped to move-car-to-curb from D2. 
+###########################
+###########################
+Predicates mapping
+behind-car from D1 is mapped to behind-car from D2. 
+at-curb-num from D1 is mapped to at-curb-num from D2. 
+at-curb from D1 is mapped to at-curb from D2. 
+car-clear from D1 is mapped to car-clear from D2. 
+curb-clear from D1 is mapped to curb-clear from D2. 
+###########################
+SMT_task_time = 0.53 
+Planning_task_time = 0.18 
+Total_task_time = 0.71 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between parking-sequential-satisficing.pddl and parking-sequential-satisficing_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.17 
+Total_task_time = 0.17 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between parking-sequential-satisficing.pddl and parking-sequential-satisficing_invalid_macro.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.19 
+Total_task_time = 0.19 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between parking-sequential-satisficing.pddl and parking-sequential-satisficing_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+move-car-to-car from D1 is mapped to move-car-to-car_m from D2. 
+move-curb-to-curb from D1 is mapped to move-curb-to-curb_m from D2. 
+move-curb-to-car from D1 is mapped to move-curb-to-car_m from D2. 
+move-car-to-curb from D1 is mapped to move-car-to-curb_m from D2. 
+###########################
+###########################
+Predicates mapping
+behind-car from D1 is mapped to behind-car_m from D2. 
+at-curb-num from D1 is mapped to at-curb-num_m from D2. 
+at-curb from D1 is mapped to at-curb_m from D2. 
+car-clear from D1 is mapped to car-clear_m from D2. 
+curb-clear from D1 is mapped to curb-clear_m from D2. 
+###########################
+SMT_task_time = 0.55 
+Planning_task_time = 0.18 
+Total_task_time = 0.73 
+Domain1 and Domain2 are functionally equivalent! 

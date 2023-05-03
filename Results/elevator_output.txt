@@ -1,0 +1,96 @@
+************************************************************
+************************************************************
+Validating the functional equivalence between elevator-strips-simple-typed-domain.pddl and elevator-strips-simple-typed-domain_delete_operator.pddl 
+************************************************************
+SMT_task_time = 0 
+Planning_task_time = 0.72 
+Total_task_time = 0.72 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between elevator-strips-simple-typed-domain.pddl and elevator-strips-simple-typed-domain_invalid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+depart from D1 is mapped to depart_m from D2. 
+board from D1 is mapped to board_m from D2. 
+down from D1 is mapped to down_m from D2. 
+up from D1 is mapped to up_m from D2. 
+###########################
+###########################
+Predicates mapping
+boarded from D1 is mapped to boarded_m from D2. 
+destin from D1 is mapped to destin_m from D2. 
+origin from D1 is mapped to origin_m from D2. 
+served from D1 is mapped to served_m from D2. 
+lift-at from D1 is mapped to lift-at_m from D2. 
+above from D1 is mapped to above_m from D2. 
+###########################
+SMT_task_time = 5.37 
+Planning_task_time = 1.08 
+Total_task_time = 6.48 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between elevator-strips-simple-typed-domain.pddl and elevator-strips-simple-typed-domain_swapped_two_variables_in_atom.pddl 
+************************************************************
+SMT_task_time = 3.92 
+Planning_task_time = 0.88 
+Total_task_time = 4.81 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between elevator-strips-simple-typed-domain.pddl and elevator-strips-simple-typed-domain_swapped_two_atoms_between_two_parts.pddl 
+************************************************************
+SMT_task_time = 3.62 
+Planning_task_time = 0.84 
+Total_task_time = 4.49 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between elevator-strips-simple-typed-domain.pddl and elevator-strips-simple-typed-domain_valid_macro.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+depart from D1 is mapped to depart_m from D2. 
+board from D1 is mapped to board_m from D2. 
+down from D1 is mapped to down_m from D2. 
+up from D1 is mapped to up_m from D2. 
+###########################
+###########################
+Predicates mapping
+boarded from D1 is mapped to boarded_m from D2. 
+destin from D1 is mapped to destin_m from D2. 
+origin from D1 is mapped to origin_m from D2. 
+served from D1 is mapped to served_m from D2. 
+lift-at from D1 is mapped to lift-at_m from D2. 
+above from D1 is mapped to above_m from D2. 
+###########################
+SMT_task_time = 5.54 
+Planning_task_time = 1.03 
+Total_task_time = 6.61 
+Domain1 and Domain2 are functionally equivalent! 
+************************************************************
+************************************************************
+Validating the functional equivalence between elevator-strips-simple-typed-domain.pddl and elevator-strips-simple-typed-domain-M.pddl 
+************************************************************
+###########################
+Primitive operators mapping
+depart from D1 is mapped to depart_m from D2. 
+board from D1 is mapped to board_m from D2. 
+down from D1 is mapped to down_m from D2. 
+up from D1 is mapped to up_m from D2. 
+###########################
+###########################
+Predicates mapping
+boarded from D1 is mapped to boarded_m from D2. 
+destin from D1 is mapped to destin_m from D2. 
+origin from D1 is mapped to origin_m from D2. 
+served from D1 is mapped to served_m from D2. 
+lift-at from D1 is mapped to lift-at_m from D2. 
+above from D1 is mapped to above_m from D2. 
+###########################
+SMT_task_time = 5.97 
+Planning_task_time = 1.13 
+Total_task_time = 7.13 
+Domain1 and Domain2 are functionally equivalent! 

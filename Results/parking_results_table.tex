@@ -1,0 +1,17 @@
+\newcommand{\parkingResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{	extwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Parking with crafted valid macro & No & FE & 1 & Yes & 0.73 & 0.55 & 0.18 \\  \hline
+Parking with random invalid macro & Yes & NFE & 6 & Yes & 0.19 & 0 & 0.19 \\  \hline
+Parking with swapped variables & Yes & NFE & 5 & Yes & 0.17 & 0 & 0.17 \\  \hline
+Parking with swapped atoms & Yes & NFE & 5 & Yes & 0.17 & 0 & 0.17 \\  \hline
+Parking with deleted operator & Yes & NFE & 7 & Yes & 0.16 & 0 & 0.16 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the domain parking and its modified versions. These modifications are detailed in \Cref{tab:parking_modifications}. The description of the reported values in this table is available in the caption of  \Cref{Tab:Gripper_results}.} 
+\label{tab:parking_results} 
+\end{center} 
+\end{table}} 

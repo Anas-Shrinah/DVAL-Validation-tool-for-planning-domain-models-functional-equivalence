@@ -1,0 +1,18 @@
+\newcommand{\RoverResults}{ 
+\begin{table}[H] 
+\begin{center} 
+\resizebox{\textwidth}{!}{ 
+\begin{tabular}{|p{0.40\linewidth}|M{0.1\linewidth}|M{0.05\linewidth}|M{0.08\linewidth}|M{0.13\linewidth}|M{0.08\linewidth}|M{0.08\linewidth}|M{0.1\linewidth}|} 
+\hline 
+\textbf{Domain version}  & \textbf{Expected impact} & \textbf{FE} & \textbf{Reason} &  \textbf{Simple domains} & \textbf{Total time (s)}  & \textbf{SMT time (s)}  & \textbf{Planning time (s)}    \\ \hline  
+Rover with crafted valid macro & Yes & NCV & 17 & No & 1.35 & 0 & 1.31 \\  \hline
+Rover with random valid macro & Yes & NFE & 6 & Yes & 3.13 & 0 & 3.11 \\  \hline
+Rover with random invalid macro & No & NFE & 6 & Yes & 3.06 & 0 & 3.04 \\  \hline
+Rover with swapped variables & No & NFE & 2 & Yes & 33.46 & 30.93 & 2.49 \\  \hline
+Rover with swapped atoms & No & NFE & 2 & Yes & 32.38 & 29.84 & 2.51 \\  \hline
+Rover with deleted operator & No & NFE & 8 & Yes & 2.44 & 0 & 2.41 \\  \hline
+\end{tabular}} 
+\caption{The results of validating the functional equivalence between the Rover domain and its modified versions. These modifications are detailed in \Cref{tab:RoverModifications}. The description of the reported values in this table is available in the caption of  \Cref{tab:GripperResults}.All the non-macro operatros in this domain and its modifed versions are found to be primitive.} 
+\label{tab:RoverResults} 
+\end{center} 
+\end{table}} 
